@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#07111f">
+<title>BEW FROSTVPN</title>
+<style>
+:root{--bg:#07111f;--panel:#0d1c30;--blue:#398cff;--ice:#79e4ff;--text:#eef7ff;--muted:#9bb0c7;--line:#1c3858}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;background:radial-gradient(circle at 50% -10%,#14365e 0,var(--bg) 48%);color:var(--text);font:16px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+.wrap{max-width:760px;margin:auto;padding:26px 18px 48px}
+.hero{text-align:center;padding:22px 12px 24px}
+.logo{width:112px;height:112px;display:block;margin:0 auto 14px}
+h1{font-size:clamp(25px,7vw,34px);letter-spacing:.08em;margin:8px 0 3px}
+.tagline{color:var(--ice);font-size:18px;margin:0}
+.sub{color:var(--muted);margin:10px 0 0;font-size:14px}
+.panel{background:linear-gradient(145deg,#102642,var(--panel));border:1px solid var(--line);border-radius:22px;padding:20px;margin:14px 0;box-shadow:0 12px 30px #0005}
+h2{margin:0 0 10px;font-size:20px}
+.plan{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:14px 0;border-top:1px solid var(--line)}
+.plan:first-of-type{border-top:0}
+.price{font-weight:800;color:var(--ice);font-size:18px;white-space:nowrap}
+.btn{display:block;text-align:center;text-decoration:none;background:linear-gradient(90deg,#287bff,#54cfff);color:#031426;font-weight:800;padding:14px 18px;border-radius:14px;margin-top:14px}
+.note{color:var(--muted);font-size:13px;margin-bottom:0}
+footer{text-align:center;color:var(--muted);font-size:12px;padding:16px}
+</style>
+</head>
+<body>
+<main class="wrap">
+<header class="hero">
+<svg class="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Логотип BEW FROST">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#72e5ff"/><stop offset="1" stop-color="#287bff"/></linearGradient></defs>
+<rect width="512" height="512" rx="112" fill="#071323"/>
+<circle cx="256" cy="220" r="145" fill="#0d2340" stroke="#1d4775" stroke-width="8"/>
+<g stroke="url(#g)" stroke-width="14" stroke-linecap="round"><path d="M256 90v260M140 155l232 135M372 155L140 290"/></g>
+<text x="256" y="435" font-family="Arial,sans-serif" font-size="48" font-weight="700" fill="#eaf7ff" text-anchor="middle">BEW FROST</text>
+</svg>
+<h1>BEW FROSTVPN</h1>
+<p class="tagline">Твой VPN. Твой выбор.</p>
+<p class="sub">Ледяной стиль · тёмно-синий фон · неоновые акценты</p>
+</header>
+<section class="panel">
+<h2>Выбери тариф</h2>
+<div class="plan"><span>1 месяц</span><b class="price">149 ₽</b></div>
+<div class="plan"><span>3 месяца</span><b class="price">399 ₽</b></div>
+<div class="plan"><span>6 месяцев</span><b class="price">699 ₽</b></div>
+<div class="plan"><span>12 месяцев</span><b class="price">1 190 ₽</b></div>
+<a class="btn" href="#demo">Выбрать тариф · демо</a>
+<p class="note" id="demo">Демонстрационный макет — кнопка не принимает оплату.</p>
+</section>
+<section class="panel">
+<h2>Поддержка</h2>
+<p>Нужна помощь с настройкой или подпиской?</p>
+<a class="btn" href="https://t.me/frost3920201">Написать оператору</a>
+</section>
+<footer>BEW FROSTVPN · ДЕМОНСТРАЦИОННЫЙ МАКЕТ</footer>
+</main>
+</body>
+</html>
